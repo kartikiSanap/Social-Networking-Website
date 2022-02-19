@@ -56,7 +56,8 @@
 }
  #content
  {
-  width:70%;
+   
+  width:80%;
  }
  #btn-post
  {
@@ -78,7 +79,7 @@
   <div class="row">
     <div class="col-sm-12">
       <div class="well">
-        <center><h1 style="color:white;"><strong>Coding Cafe</strong></h1></center>
+        <center><h1 style="color:white;"><strong>Coding Cafe Site</strong></h1></center>
       </div>
     </div>
 
