@@ -41,7 +41,7 @@ if(!isset($_SESSION['user_email'])) {
 				$update_post="update posts set post_content='$content' where post_id='$get_id'";
 				$run_update=mysqli_query($con,$update_post);
 				if($run_update){
-					echo "<script>alert('A post have been updated!')</script>";
+					echo "<script>alert('A post have been updated successfully!')</script>";
 					echo "<script>window.open('home.php','_self')</script>";
 
 				}

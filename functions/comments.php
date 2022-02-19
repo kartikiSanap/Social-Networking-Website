@@ -13,7 +13,7 @@ while($row=mysqli_fetch_array($run_com)){
 	<br>
 	<div>
 	<h4><strong>$com_name</strong>&nbsp;<i>commented</i> on $date</h4>
-	<p class='text-primary' style='margin-left:5px; font-size:20px;'>$com</p>
+	<p class='text-primary' style='margin-left:10px; font-size:20px;'>$com</p>
 	</div>
 	</div>
 	</div>

@@ -1,5 +1,5 @@
 <?php
-$con=mysqli_connect("localhost","root","","social_network") or die("connection was not established");
+$con=mysqli_connect("localhost","root","","social_network") or die("connection was not established successfully");
 if(isset($_GET['post_id'])){
 	$post_id=$_GET['post_id'];
 	$delete_post="delete from posts where post_id=$post_id";
